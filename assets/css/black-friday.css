@@ -1,0 +1,1575 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.btn--gray {
+  background: linear-gradient(
+    98.49deg,
+    #bbbbbb 12.31%,
+    #ffffff 60.62%,
+    #999999 99.72%
+  );
+  color: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+  border: 2px solid #ffffff;
+}
+btn--sm {
+  height: 50px;
+}
+
+.btn--lg {
+  font-size: 20px;
+  height: 70px;
+  padding: 5px 47px;
+}
+.mini-navigation-box-side-baar {
+  display: none;
+}
+.side-baar-btn .btn {
+  display: none;
+}
+
+.mini-navigation-login-box button {
+  background-color: #099ee3;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 5px 13px;
+}
+.header-hide {
+  display: none;
+}
+.company-logo_box-btn > p {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.company-logo_box-btn > p > span {
+  position: relative;
+  color: rgba(255, 122, 0, 1);
+}
+
+.company-logo_box-btn > p > span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 122, 0, 1);
+}
+.sale-video > video {
+  border-radius: 10px;
+  width: 243px;
+  aspect-ratio: 1.664;
+  object-fit: cover;
+}
+
+.successful-section-slids.slick-slider {
+  width: 100%;
+}
+
+.main___slid {
+  display: flex;
+  justify-content: center;
+}
+
+.slick-initialized .slick-slide {
+  display: flex;
+}
+.second-page-header {
+  padding: 12px 0px 22px 0px;
+}
+.main-company-logo_nav-box {
+  padding: 10px 30px 0px 30px;
+}
+.hero-section {
+  z-index: 999;
+  position: relative;
+  background: radial-gradient(
+    circle,
+    rgba(42, 42, 103, 1),
+    rgba(17, 15, 40, 1)
+  );
+  overflow: hidden;
+}
+.main-hero-section {
+  padding: 50px 80px 150px 80px;
+  /* max-width: 1121px; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 10px;
+  position: relative;
+  z-index: 10;
+}
+
+.sale-title h3 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 34px;
+  font-weight: 700;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 14px;
+  font-family: Montserrat;
+}
+.sale-title h3 > span {
+  color: rgba(0, 140, 255, 1);
+  font-weight: 600;
+}
+
+.sale-off-heading h1 {
+  background: linear-gradient(
+    124deg,
+    #00affffc 2.22%,
+    #00affffc 2.22%,
+    #00affffc 2.22%,
+    #9a2eff 95.54%
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 86px;
+  font-weight: 900;
+  line-height: 68px;
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: italic;
+}
+
+.sale-date p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+  padding: 7px 0px 14px 0px;
+}
+.sale-content {
+  max-width: 535px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 15px 20px 10px 20px;
+  border: 2px solid;
+  border-image: linear-gradient(to right, #13112d00, #008cff, #12102b00) 1;
+}
+
+.time-box {
+  position: relative;
+}
+
+.time-box::before {
+  content: ":";
+  position: absolute;
+  left: 114%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+  color: #fff;
+}
+.time-box-last::before {
+  content: ":";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: transparent;
+  z-index: 1;
+}
+
+.sale-content h4 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+}
+.sale-content p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+.sale-video-text-heading h4 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+.sale-video-text-content {
+  max-width: 275px;
+}
+.sale-video-text-content p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.hero-section-offer-box {
+  display: flex;
+  gap: 45px;
+  justify-content: space-between;
+}
+.sale-video-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 30px;
+}
+.sale-video-text-heading {
+  max-width: 244px;
+}
+.sale-video-text {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.sale-dates-time-title h5 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  text-align: center;
+  line-height: 22px;
+  font-weight: 600;
+}
+.time-title p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 13px;
+  text-align: center;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.time-number {
+  display: flex;
+  gap: 4px;
+}
+
+.time-number span {
+  color: rgba(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.34);
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+.sale-live-time-box {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+  padding-bottom: 15px;
+}
+.membership-title {
+  position: relative;
+  z-index: 1;
+}
+.membership-title h3 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.cross-dollar {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 32px;
+  font-weight: 400;
+  position: relative;
+  display: inline-block;
+}
+
+.cross-dollar::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+.dollar-year h2 {
+  color: #ffffff;
+  font-size: 62px;
+  font-weight: 600;
+}
+.dollar-year h2 > span {
+  font-weight: 600;
+}
+.dollar-year > span {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  opacity: 80%;
+}
+.dollar-year {
+  display: flex;
+  align-items: center;
+}
+.membership-dollar-year {
+  display: flex;
+  gap: 50px;
+  z-index: 10;
+  position: relative;
+  align-items: center;
+}
+
+.annual-card {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.compare-box {
+  padding-top: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.compare-box p {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.membership-card {
+  position: relative;
+  border-radius: 16px;
+  padding: 18px 28px 22px 28px;
+  background: linear-gradient(105deg, #0099ff, #ffffff, #0099ff);
+  overflow: hidden;
+}
+
+.membership-card::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background: linear-gradient(135deg, #003c78, #00b7ff, #00b7ff, #003c78);
+  border-radius: 14px;
+  z-index: 0;
+}
+
+.membership-card.second-card {
+  position: relative;
+  border-radius: 16px;
+  padding: 18px 28px 22px 28px;
+  background: linear-gradient(105deg, #9500ff, #ffffff, #9500ff);
+  overflow: hidden;
+}
+
+.membership-card.second-card::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background: linear-gradient(
+    -55deg,
+    #3e0078,
+    #7700e6,
+    #8467c0,
+    #420080,
+    #420080,
+    #420080
+  ); /* Inner bg */
+  border-radius: 14px;
+  z-index: 0;
+}
+
+.pro-card-image {
+  position: absolute;
+  top: -20px;
+  right: -29px;
+  z-index: -1;
+}
+.top-left-ribbon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 170px;
+}
+
+.top-right-ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.bottom-left-ribbon {
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  z-index: 2;
+  /* width: 220px; */
+}
+.bottom-right-ribbon {
+  position: absolute;
+  bottom: -3px;
+  right: 0;
+  /* width: 220px; */
+  z-index: 2;
+}
+.bottom-left-hero-figure {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/* .bottom-left-hero-figure img{
+    width: 800px;
+  } */
+.bottom-right-drone-figure {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.mini-navigation-box.second-page-navigation {
+  padding: 3px 30px;
+}
+.second-page-navigation > .mini-navigation-login-box {
+  padding-left: 30px;
+}
+.two-items-nav {
+  padding-right: 30px;
+}
+.courses-heading h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+}
+.hero-section-courses-box {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.courses-title-box-inner {
+  display: flex;
+  gap: 38px;
+  align-items: center;
+}
+.courses-title-box-inner h3 {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+}
+.courses-title-box {
+  background: linear-gradient(to right, #9229ff, #05acfa);
+  padding: 9px 11px;
+  border-radius: 6px 6px 0px 0px;
+}
+.main-courses-box {
+  border: 3px solid #05acfa;
+  /* border-image: linear-gradient(to right, #9229ff, #05acfa); */
+  /* border-image-slice: 1; */
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.heading-active {
+  padding: 7px 23px;
+  background-color: #fff;
+  color: #745cd8 !important;
+  border-radius: 36px;
+}
+.courses-listing {
+  padding: 22px 32px 26px 32px;
+}
+
+.courses-listing-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(7, auto);
+  grid-auto-flow: column;
+  column-gap: 10px;
+  row-gap: 16px;
+}
+
+.courses-listing-items li {
+  break-inside: avoid;
+}
+.courses-listing-items li {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  position: relative;
+  padding-left: 22px;
+}
+.courses-listing-items li::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff7a00;
+  left: 0;
+  top: 4px;
+}
+.company__logo-section {
+  background-color: #f3f3f3;
+}
+.main-company__logo-section {
+  padding: 50px 70px 40px 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.company__logo-heading h2 {
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.3;
+  color: #000000;
+  font-weight: 600;
+}
+.company__logo-card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.logo-card-inner {
+  width: 165px;
+  height: 165px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0px 4px 4px rgb(207 197 197 / 86%);
+}
+.successful-section-heading-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.successful-section-heading-box h3 {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.3;
+  color: #000000;
+}
+.successful-section-heading-box p {
+  color: #000000;
+  font-weight: 500;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.successful-section {
+  padding: 60px 80px 50px 80px;
+}
+.main-successful-section {
+  /* padding: 60px 80px 50px 80px; */
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.successful-slid-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 53px 18px 18px 18px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  /* width: 350px;
+  flex: 0 0 350; */
+}
+.slick-track {
+  padding-top: 40px;
+}
+.sale-dates-time-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.rating-box-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.rating-box-images img {
+  width: 18px;
+}
+.rating-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+}
+.slid-card-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.slid-card-bottom h4 {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.slid-card-bottom p {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+}
+.slid-card-bottom p > span {
+  color: #ff7a00;
+}
+.outer-box {
+  display: flex;
+}
+.rating-box-content p {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: lowercase;
+  line-height: 1.5;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.rating-box-content p > span {
+  color: #ff7a00;
+  text-align: center;
+  font-weight: 500;
+}
+.trustpilot-logo {
+  top: -40px;
+  left: 40%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #2f263e;
+}
+.trustpilot-logo img {
+  width: 25px;
+}
+.trustpilot-logo p {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+.success-slid-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left__slid img {
+  width: 20px;
+  cursor: pointer;
+}
+.right__slid img {
+  width: 20px;
+  cursor: pointer;
+}
+.accordion-section {
+  background-color: #ecf4fc;
+}
+.main-accordion-box {
+  padding: 50px 70px 50px 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.accordion-box-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.accordion-box-inner-items {
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.accordion-heading {
+  display: flex;
+  gap: 10px;
+}
+
+.accordion-heading h3 {
+  color: #292424;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.3;
+}
+.accordion-content {
+  padding-left: 20px;
+  display: none;
+}
+.accordion-box-inner-items.active .accordion-content {
+  display: block;
+}
+.accordion-box-inner-items.active span {
+  transform: rotate(90deg);
+}
+
+.accordion-content p {
+  color: #000000ad;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.lock-box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(191 191 191 /47%);
+}
+.lock-box img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+.ssl-box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.ssl-box img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+.lock-box p {
+  color: #505050;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.4;
+}
+.accordion-box-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.ssl-box p {
+  color: #505050;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.4;
+}
+.play-icon {
+  color: rgba(0, 0, 0, 0.68);
+  font-size: 10px;
+  font-weight: 400;
+  display: inline-block;
+}
+.show__hide_listing {
+  display: none;
+}
+
+@media screen and (max-width: 1400px) {
+  .main-hero-section {
+    padding: 50px 90px 145px 115px;
+  }
+  .courses-title-box-inner {
+    gap: 30px;
+  }
+  .membership-card,
+  .membership-card.second-card {
+    padding: 18px 24px 22px 24px;
+  }
+  .dollar-year h2 {
+    font-size: 56px;
+  }
+  .dollar-year > span {
+    font-size: 25px;
+  }
+  .sale-content {
+    max-width: 530px;
+  }
+  .courses-listing-items li {
+    font-size: 13px;
+    padding-left: 18px;
+  }
+  .courses-listing-items li::before {
+    width: 8px;
+    height: 8px;
+  }
+  .sm__btn {
+    font-size: 15px;
+  }
+  .membership-title h3 {
+    font-size: 28px;
+  }
+  .membership-dollar-year {
+    gap: 36px;
+  }
+  .lg__btn {
+    font-size: 18px;
+    height: 60px;
+    padding: 5px 40px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .container {
+    max-width: 100%;
+  }
+  .sale-off-heading h1 {
+    font-size: 70px;
+    line-height: 57px;
+  }
+  .sale-date p {
+    font-size: 24px;
+    padding-top: 10px;
+  }
+  .sale-content h4 {
+    font-size: 20px;
+  }
+  .sale-content p {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+  .sale-video-text-heading h4 {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  .sale-video-text-content p {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+  .sale-video > video {
+    width: 212px;
+  }
+  .membership-title h3 {
+    font-size: 25px;
+  }
+  .sm__btn {
+    font-size: 14px;
+    white-space: nowrap;
+    height: 45px;
+  }
+  .dollar-year h2 {
+    font-size: 40px;
+  }
+  .dollar-year > span {
+    font-size: 22px;
+  }
+  .membership-dollar-year {
+    gap: 30px;
+  }
+  .sale-title h3 {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+  .company-logo_box-btn > p {
+    font-size: 20px;
+  }
+  .hero-section-offer-box {
+    gap: 40px;
+  }
+  .lg__btn {
+    font-size: 17px;
+    height: 50px;
+    padding: 5px 30px;
+  }
+  .courses-heading h3 {
+    font-size: 20px;
+  }
+  .courses-title-box-inner {
+    gap: 24px;
+  }
+  .courses-title-box-inner h3 {
+    font-size: 15px;
+  }
+  .courses-listing-items {
+    row-gap: 12px;
+  }
+  .courses-listing-items li {
+    font-size: 12px;
+  }
+  .bottom-left-hero-figure,
+  .bottom-right-drone-figure {
+    max-width: 800px;
+  }
+  .bottom-right-ribbon,
+  .bottom-left-ribbon {
+    width: 220px;
+  }
+  .main-hero-section {
+    padding: 50px 90px 117px 103px;
+  }
+  .logo-card-inner {
+    width: 135px;
+    height: 140px;
+  }
+  .rating-box-content p {
+    font-size: 14px;
+  }
+  .slid-card-bottom h4 {
+    font-size: 16px;
+  }
+  .slid-card-bottom p {
+    font-size: 16px;
+  }
+  .trustpilot-logo {
+    width: 70px;
+    height: 70px;
+  }
+  .trustpilot-logo img {
+    width: 20px;
+  }
+  .main-successful-section {
+    gap: 35px;
+  }
+  .lock-box img,
+  .ssl-box img {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .mini-navigation_items-lists {
+    padding-bottom: 5px;
+  }
+  .main-hero-section {
+    padding: 50px 60px 100px 78px;
+  }
+  .second-page-header {
+    padding: 8px 0px 18px 0px;
+  }
+  .company-logo_box-btn > p {
+    font-size: 18px;
+  }
+  .bottom-left-hero-figure,
+  .bottom-right-drone-figure {
+    max-width: 657px;
+  }
+  .main-company__logo-section {
+    padding: 40px 60px 30px 60px;
+    gap: 25px;
+  }
+  .company__logo-heading h2,
+  .successful-section-heading-box h3 {
+    font-size: 26px;
+  }
+  .logo-card-inner {
+    width: 120px;
+    height: 120px;
+  }
+  .successful-section {
+    padding: 40px 60px 40px 60px;
+  }
+  .trustpilot-logo {
+    width: 65px;
+    height: 65px;
+  }
+  .trustpilot-logo p {
+    font-size: 10px;
+  }
+  .rating-box-images img {
+    width: 16px;
+  }
+  .trustpilot-logo img {
+    width: 18px;
+  }
+  .rating-box-content p {
+    font-size: 13px;
+  }
+  .slid-card-bottom h4 {
+    font-size: 14px;
+  }
+  .slid-card-bottom p {
+    font-size: 14px;
+  }
+  .courses-title-box-inner h3 {
+    font-size: 14px;
+  }
+  .courses-title-box-inner {
+    gap: 20px;
+  }
+  .courses-heading h3 {
+    font-size: 18px;
+  }
+  .mini-navigation-box.second-page-navigation {
+    padding: 3px 0px;
+  }
+  .main-company-logo_nav-box {
+    padding: 10px 0px 0px 0px;
+  }
+  .courses-listing-items li {
+    font-size: 11px;
+  }
+  .accordion-heading h3 {
+    font-size: 17px;
+  }
+  .main-accordion-box {
+    padding: 40px 60px;
+    gap: 30px;
+  }
+  .lock-box p,
+  .ssl-box p {
+    font-size: 17px;
+  }
+  .courses-title-box {
+    padding: 6px 8px;
+  }
+  .heading-active {
+    padding: 5px 15px;
+  }
+  .sale-video-text-heading h4 {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+  .sale-content h4 {
+    font-size: 18px;
+  }
+  .sale-content p {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  .lg__btn {
+    font-size: 16px;
+    height: 44px;
+    padding: 5px 25px;
+  }
+  .hero-section-offer-box {
+    gap: 25px;
+  }
+  .bottom-right-drone-figure {
+    right: -29px;
+  }
+  .courses-listing {
+    padding: 20px;
+  }
+  .top-left-ribbon {
+    width: 130px;
+  }
+  .top-right-ribbon {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .main-hero-section {
+    padding: 50px 20px 82px 20px;
+  }
+  .bottom-right-ribbon,
+  .bottom-left-ribbon {
+    width: 150px;
+  }
+  .bottom-left-hero-figure,
+  .bottom-right-drone-figure {
+    max-width: 532px;
+  }
+  .membership-title h3 {
+    font-size: 20px;
+  }
+  .dollar-year h2 {
+    font-size: 30px;
+  }
+  .sale-video > video {
+    width: 165px;
+  }
+  .sale-video-box {
+    gap: 20px;
+  }
+  .sale-title h3 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  .sale-off-heading h1 {
+    font-size: 60px;
+    line-height: 50px;
+  }
+  .sale-date p {
+    font-size: 20px;
+  }
+  .hero-section-offer-box {
+    gap: 20px;
+  }
+  .sale-content h4 {
+    font-size: 16px;
+  }
+  .sale-video-text-heading h4 {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  .annual-card {
+    gap: 20px;
+  }
+  .sale-dates-time-title h5 {
+    font-size: 15px;
+  }
+  .company-logo_box-btn > p {
+    font-size: 16px;
+  }
+  .company-logo_box-btn > p > span::after {
+    bottom: 2px;
+  }
+  .time-number span {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  .sale-live-time-box {
+    gap: 20px;
+  }
+  .time-box::before {
+    left: 120%;
+    font-size: 20px;
+  }
+  .time-title p {
+    font-size: 12px;
+  }
+  .compare-box p {
+    font-size: 18px;
+  }
+  .sm__btn {
+    height: 40px;
+  }
+  .courses-heading h3 {
+    font-size: 16px;
+  }
+  .courses-title-box-inner h3 {
+    font-size: 12px;
+  }
+  .courses-title-box-inner {
+    gap: 15px;
+  }
+  .courses-listing-items {
+    row-gap: 10px;
+    column-gap: 5px;
+  }
+  .main-company__logo-section {
+    padding: 30px 20px 25px 20px;
+    gap: 20px;
+  }
+  .logo-card-inner {
+    width: 90px;
+    height: 95px;
+  }
+  .successful-section {
+    padding: 30px;
+  }
+  .company__logo-heading h2,
+  .successful-section-heading-box h3 {
+    font-size: 22px;
+  }
+  .rating-box-content p {
+    font-size: 12px;
+  }
+  .trustpilot-logo img {
+    width: 16px;
+  }
+  .slid-card-bottom h4 {
+    font-size: 13px;
+  }
+  .slid-card-bottom p {
+    font-size: 13px;
+  }
+  .trustpilot-logo {
+    width: 60px;
+    height: 60px;
+    top: -35px;
+    left: 38%;
+  }
+  .main-accordion-box {
+    padding: 30px 20px;
+    gap: 20px;
+  }
+  .lock-box p,
+  .ssl-box p {
+    font-size: 15px;
+  }
+  .accordion-heading h3 {
+    font-size: 15px;
+  }
+  .accordion-content p {
+    font-size: 13px;
+  }
+  .lock-box,
+  .ssl-box {
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .offer-box-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .success-slid-arrow {
+    display: none;
+  }
+  h3.heading-active {
+    color: #ffffff !important;
+    background-color: transparent;
+    padding: 0;
+  }
+  .sm__btn {
+    white-space: normal;
+  }
+  .hero-section-offer-box {
+    flex-direction: column;
+  }
+  .company-logo_box-btn > p {
+    font-size: 14px;
+  }
+  .company-logo_icon img {
+    width: 95px;
+  }
+  .sale-video > video {
+    width: 200px;
+  }
+  .main-company-logo_nav-box {
+    padding: 0;
+  }
+  .second-page-header {
+    padding: 10px 0px;
+  }
+  .top-left-ribbon {
+    width: 100px;
+  }
+  .top-right-ribbon {
+    width: 70px;
+  }
+  .membership-dollar-year {
+    justify-content: space-between;
+  }
+  .courses-listing-items {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+  }
+  .show__hide_listing {
+    display: block;
+  }
+  .heading__hide {
+    display: none;
+  }
+  .active_listing .hide__show_list {
+    display: none;
+  }
+  .heading__hide__show {
+    display: block;
+  }
+  .main-courses-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 10px;
+  }
+  .company__logo-heading h2,
+  .successful-section-heading-box h3 {
+    font-size: 18px;
+  }
+  .successful-section-heading-box p {
+    font-size: 16px;
+  }
+  .logo-card-inner {
+    width: 75px;
+    height: 75px;
+    padding: 5px;
+  }
+  .main-successful-section {
+    gap: 20px;
+  }
+  .courses-listing {
+    padding: 10px 20px;
+    border: 1px solid #05acfa;
+    border-radius: 0 0 10px 10px;
+    border-top: antiquewhite;
+  }
+  .courses-title-box {
+    background: linear-gradient(to right, #05acfa, #05acfa);
+  }
+  .main-courses-box {
+    border: none;
+  }
+  .main-hero-section {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .company-logo_box-btn > p {
+    display: none;
+  }
+  .company-logo_icon img {
+    width: 85px;
+  }
+  .second-page-header {
+    padding: 8px 0px;
+  }
+  .company__logo-heading h2,
+  .successful-section-heading-box h3 {
+    font-size: 16px;
+  }
+  .company-logo__listing-items .company-logo_box-btn p {
+    display: block;
+    text-align: center;
+  }
+  .successful-section-heading-box p {
+    font-size: 14px;
+  }
+  .courses-heading h3 {
+    font-size: 14px;
+  }
+  .compare-box p {
+    font-size: 16px;
+  }
+  .sale-off-heading h1 {
+    font-size: 50px;
+    line-height: 40px;
+  }
+  .sale-title h3 {
+    font-size: 22px;
+    line-height: 1;
+  }
+  .accordion-heading h3 {
+    font-size: 14px;
+  }
+  .accordion-content p {
+    font-size: 12px;
+  }
+  .lock-box p,
+  .ssl-box p {
+    font-size: 14px;
+  }
+  .trustpilot-logo {
+    left: 43%;
+  }
+  .sale-video > video {
+    width: 100%;
+  }
+
+  .company__logo-card {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 20px;
+    justify-content: start;
+  }
+
+  .logo-card-inner {
+    flex: 0 0 auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+  }
+  .logo-card-inner img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+  }
+
+  .company__logo-card::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .company__logo-card::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .cross-dollar {
+    font-size: 28px;
+  }
+  .dollar-year h2 {
+    font-size: 28px;
+  }
+  .bottom-right-ribbon,
+  .bottom-left-ribbon {
+    width: 130px;
+  }
+  .sale-video-box {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .sale-video-text-heading,
+  .sale-video-text-content {
+    max-width: 100%;
+  }
+  .header-hide {
+    display: block;
+  }
+}
+@media screen and (max-width: 425px) {
+  .main-hero-section {
+    padding: 30px 0px 75px 0px;
+  }
+  .main-company__logo-section {
+    padding: 15px 0px;
+    gap: 10px;
+  }
+  .successful-section {
+    padding: 20px 0px;
+  }
+  .main-accordion-box {
+    padding: 20px 0px;
+    gap: 18px;
+  }
+
+  .company-logo_box-btn > p {
+    display: none;
+  }
+  .sale-off-heading h1 {
+    font-size: 40px;
+    line-height: 32px;
+  }
+  .sale-content h4 {
+    font-size: 14px;
+  }
+  .sale-content p {
+    font-size: 13px;
+    line-height: 1.3;
+  }
+  .sale-content {
+    padding: 10px 0px;
+  }
+  .sale-video-box {
+    gap: 15px;
+    padding-top: 15px;
+  }
+  .sale-video-text-heading h4 {
+    font-size: 12px;
+    line-height: 1.3;
+  }
+  .sale-video-text {
+    gap: 8px;
+  }
+  .sale-video-text-content p {
+    font-size: 11px;
+    line-height: 1.3;
+  }
+  .hero-section-offer-box {
+    gap: 15px;
+  }
+  .sale-dates-time-title h5 {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  .membership-card,
+  .membership-card.second-card {
+    padding: 15px;
+  }
+  .dollar-year h2,
+  .cross-dollar {
+    font-size: 22px;
+  }
+  .membership-dollar-year {
+    gap: 15px;
+  }
+  .dollar-year > span {
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+  .membership-title h3 {
+    font-size: 16px;
+  }
+  .sm__btn {
+    height: 35px;
+    font-size: 12px;
+  }
+  .pro-card-image {
+    width: 210px;
+  }
+  .compare-box p {
+    font-size: 15px;
+  }
+  .lg__btn {
+    font-size: 14px;
+    height: 40px;
+    padding: 5px 20px;
+  }
+  .courses-heading h3 {
+    font-size: 12px;
+  }
+  .courses-listing {
+    padding: 10px 0px 10px 10px;
+  }
+  .main-courses-box {
+    gap: 10px;
+    padding: 0;
+  }
+  .company__logo-heading h2,
+  .successful-section-heading-box h3 {
+    font-size: 15px;
+  }
+  .company__logo-card {
+    padding: 6px 0px;
+    gap: 10px;
+  }
+  .main-successful-section {
+    gap: 15px;
+  }
+  .successful-section-heading-box p {
+    font-size: 12px;
+  }
+  .accordion-heading h3 {
+    font-size: 13px;
+  }
+  .accordion-content p {
+    font-size: 11px;
+  }
+  .accordion-box-inner-items {
+    padding: 10px;
+    border-radius: 2px;
+  }
+  .lock-box p,
+  .ssl-box p {
+    font-size: 13px;
+  }
+  .lock-box,
+  .ssl-box {
+    gap: 10px;
+  }
+  .lock-box img,
+  .ssl-box img {
+    width: 30px;
+    height: 30px;
+  }
+  .trustpilot-logo {
+    left: 40%;
+  }
+  .bottom-right-ribbon,
+  .bottom-left-ribbon {
+    width: 95px;
+  }
+}
